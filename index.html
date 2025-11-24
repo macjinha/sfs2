@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Магазин</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <!-- HERO -->
+    <header class="hero" id="hero">
+      <div class="hero-inner container">
+        <div class="hero-top">
+          <span class="hero-tagline" id="hero-tagline"></span>
+          <h1 class="hero-title" id="hero-title"></h1>
+        </div>
+        <p class="hero-description" id="hero-description"></p>
+      </div>
+    </header>
+
+    <!-- PRODUCTS -->
+    <main>
+      <section class="products" id="products">
+        <div class="container">
+          <div class="products-header">
+            <h2 class="section-title" id="products-title"></h2>
+            <p class="section-subtitle" id="products-subtitle"></p>
+          </div>
+          <div class="products-grid" id="products-grid">
+            <!-- Карточки товаров из data.json -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-col">
+          <div class="footer-brand" id="footer-brand"></div>
+          <p class="footer-legal" id="footer-legal"></p>
+        </div>
+        <div class="footer-col footer-col-right">
+          <a href="#" class="footer-link" id="footer-phone"></a>
+          <a href="#" class="footer-link" id="footer-email"></a>
+          <p class="footer-address" id="footer-address"></p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- MODAL -->
+  <div class="modal-backdrop" id="order-modal" hidden>
+    <div class="modal">
+      <button class="modal-close" type="button" data-modal-close>&times;</button>
+      <h3 class="modal-title" id="modal-title">Заказ по телефону</h3>
+      <p class="modal-text" id="modal-text"></p>
+      <a class="modal-phone" id="modal-phone" href="tel:"></a>
+      <p class="modal-note" id="modal-note"></p>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

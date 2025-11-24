@@ -1,0 +1,41 @@
+{
+  "site": {
+    "title": "Neon Brew — магазин светящихся кружек",
+    "storeName": "Neon Brew",
+    "tagline": "Магазин светящихся кружек",
+    "heroDescription": "Кружки, которые светятся в темноте и бодрят ещё до того, как вы налили в них кофе.",
+    "productsTitle": "Наши кружки",
+    "productsSubtitle": "Минимум выбора, максимум кайфа. Всё, что нужно для уютного киберпанк-уголка на кухне.",
+    "phone": "+7 999 123-45-67",
+    "email": "order@neonbrew.store",
+    "address": "Россия, Москва, ул. Пиксельная, д. 7",
+    "legalName": "ООО «Неон Брю»",
+    "inn": "7701234567"
+  },
+  "products": [
+    {
+      "id": "cup-neon-blue",
+      "name": "Кружка «Неоновый синий»",
+      "price": "1 490 ₽",
+      "image": "https://via.placeholder.com/600x600.png?text=Neon+Blue"
+    },
+    {
+      "id": "cup-neon-pink",
+      "name": "Кружка «Розовый глюк»",
+      "price": "1 590 ₽",
+      "image": "https://via.placeholder.com/600x600.png?text=Neon+Pink"
+    },
+    {
+      "id": "cup-neon-green",
+      "name": "Кружка «Ядерный матча»",
+      "price": "1 590 ₽",
+      "image": "https://via.placeholder.com/600x600.png?text=Neon+Green"
+    },
+    {
+      "id": "cup-kit-3",
+      "name": "Набор из 3 кружек",
+      "price": "3 990 ₽",
+      "image": "https://via.placeholder.com/600x600.png?text=Neon+Set+3"
+    }
+  ]
+}
