@@ -1,41 +1,42 @@
 {
   "site": {
-    "title": "Neon Brew — магазин светящихся кружек",
-    "storeName": "Neon Brew",
-    "tagline": "Магазин светящихся кружек",
-    "heroDescription": "Кружки, которые светятся в темноте и бодрят ещё до того, как вы налили в них кофе.",
-    "productsTitle": "Наши кружки",
-    "productsSubtitle": "Минимум выбора, максимум кайфа. Всё, что нужно для уютного киберпанк-уголка на кухне.",
-    "phone": "+7 999 123-45-67",
-    "email": "order@neonbrew.store",
-    "address": "Россия, Москва, ул. Пиксельная, д. 7",
-    "legalName": "ООО «Неон Брю»",
-    "inn": "7701234567"
+    "title": "Заголовок странциы",
+    "storeName": "Название бренда",
+    "tagline": "Краткое описание",
+    "heroDescription": "Текст, текст, текст, длинное описание, текст, текст, текст. Текст, текст, текст, длинное описание, текст, текст, текст. Текст, текст, текст, длинное описание, текст, текст, текст. Текст, текст, текст, длинное описание, текст, текст, текст.",
+    "productsTitle": "Заголовок магазина",
+    "productsSubtitle": "Описание магазина. Текст, текст, текст, длинное описание, текст, текст, текст.",
+    "phone": "+79999991111",
+    "email": "example@example.com",
+    "address": "Россия, Москва, ул. Пушкина, Дом Колотушкина.",
+    "legalName": "ООО «Рога и Копыта»",
+    "inn": "2281337228"
   },
   "products": [
     {
-      "id": "cup-neon-blue",
-      "name": "Кружка «Неоновый синий»",
+      "id": "1",
+      "name": "Товар №1",
       "price": "1 490 ₽",
-      "image": "https://via.placeholder.com/600x600.png?text=Neon+Blue"
+      "image": "https://img.freepik.com/free-photo/view-cooked-crawfish_23-2150426277.jpg"
     },
     {
-      "id": "cup-neon-pink",
-      "name": "Кружка «Розовый глюк»",
+      "id": "c2",
+      "name": "Товар 2",
       "price": "1 590 ₽",
-      "image": "https://via.placeholder.com/600x600.png?text=Neon+Pink"
+      "image": "https://img.freepik.com/free-photo/view-cooked-crawfish_23-2150426277.jpg"
     },
     {
-      "id": "cup-neon-green",
-      "name": "Кружка «Ядерный матча»",
+      "id": "3",
+      "name": "Товар «номер три»",
       "price": "1 590 ₽",
-      "image": "https://via.placeholder.com/600x600.png?text=Neon+Green"
+      "image": "https://img.freepik.com/free-photo/view-cooked-crawfish_23-2150426277.jpg"
     },
     {
-      "id": "cup-kit-3",
-      "name": "Набор из 3 кружек",
+      "id": "4",
+      "name": "Товар под номером 4",
       "price": "3 990 ₽",
-      "image": "https://via.placeholder.com/600x600.png?text=Neon+Set+3"
+      "image": "https://img.freepik.com/free-photo/view-cooked-crawfish_23-2150426277.jpg"
     }
   ]
 }
+
