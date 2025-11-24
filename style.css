@@ -371,11 +371,17 @@ a {
   inset: 0;
   background: var(--backdrop-color);
   backdrop-filter: blur(8px);
-  display: flex;
   align-items: center;
   justify-content: center;
   z-index: 50;
+  display: none; /* по умолчанию скрыта */
 }
+
+/* когда открыта */
+.modal-backdrop.is-open {
+  display: flex;
+}
+
 
 .modal {
   position: relative;

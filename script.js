@@ -221,14 +221,16 @@ function openOrderModal(product) {
       "Назовите название товара и уточните наличие. Оплата и доставка обсуждаются по телефону.";
   }
 
-  modalBackdrop.hidden = false;
+  // показываем модалку
+  modalBackdrop.classList.add("is-open");
 }
 
 function closeOrderModal() {
   const modalBackdrop = document.getElementById("order-modal");
   if (!modalBackdrop) return;
-  modalBackdrop.hidden = true;
+  modalBackdrop.classList.remove("is-open");
 }
+
 
 /* INIT */
 
